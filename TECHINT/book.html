@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bookstore Website</title>
+	<link rel="stylesheet" type="text/css" href="book.css">
+</head>
+<body style="background-image:url('techimg/book5.jpg')">
+	<header>
+		<h1 style="color: beige; font-family: 'Times New Roman', Times, serif; font-size: 50px;">BOOKS & FUN</h1>
+		<nav>
+			<ul>
+				<li><a style="color: rgb(227, 178, 43); font-family: 'Times New Roman', Times, serif; font-size:xx-large;" href="#">Welcome to the world of amazing books</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="books">
+			<h2 style="color: rgb(216, 180, 107); font-family: 'Times New Roman', Times, serif; color: white;">Our bestsellings </h2>
+			<ul>
+				<li>
+					<img src="techimg/book1.jpg" alt="Book1">
+					<h3 style="font-family: 'Times New Roman', Times, serif; color: white;">You can win</h3>
+					<p style="color: white;" class="author">Author: Mr. Shiv Khera</p>
+					<p style="color: white;" class="price">$19.99</p>
+				</li>
+				<li>
+					<img src="techimg/book2.jpg" alt="Book 2">
+					<h3 style="font-family: 'Times New Roman', Times, serif; color: white;">Turning Points : A Journey Through Challenges</h3>
+					<p style="color: white;" class="author">Author: Dr. A. P. J. Abdul Kalam</p>
+					<p style="color: white;" class="price">$24.99</p>
+				</li>
+				<li>
+					<img src="techimg/book3.jpg" alt="Book 3">
+					<h3 style="font-family: 'Times New Roman', Times, serif; color: white;">Harry Potter all seven books collection</h3>
+					<p  style="color: white;" class="author">Author: J. K. Rowling</p>
+					<p  style="color: white;" class="price">$60.82</p>
+				</li>
+			</ul>
+		</section>
+		<section class="contact">
+			<h2 style="color: white;">Contact Us</h2>
+			<form>
+				<label style="color: white;" for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
+
+				<label style="color: white;" for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+
+				<label style="color: white;" for="message">Message:</label>
+				<textarea id="message" name="message"></textarea><br>
+
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+		<div class="feedback">
+			<h3 style="font-family: 'Times New Roman', Times, serif; color: white; font-size:xx-large;"><b>Feedback</b></h3>
+			<p style="font-size: x-large; font-family: 'Times New Roman', Times, serif; color: black"><b>How was your experience?</b></p>
+			<div class="rating">
+			  <input type="radio" name="rating" id="star1" value="1">
+			  <label for="star1"><i class="fas fa-star"></i></label>
+			  <input type="radio" name="rating" id="star2" value="2">
+			  <label for="star2"><i class="fas fa-star"></i></label>
+			  <input type="radio" name="rating" id="star3" value="3">
+			  <label for="star3"><i class="fas fa-star"></i></label>
+			  <input type="radio" name="rating" id="star4" value="4">
+			  <label for="star4"><i class="fas fa-star"></i></label>
+			  <input type="radio" name="rating" id="star5" value="5">
+			  <label for="star5"><i class="fas fa-star"></i></label>
+			</div>
+			<textarea style="font-style: italic;" placeholder="Enter your feedback here"></textarea>
+			<button class="btn" id="mybtn">Submit</button>
+		  </div>
+	</main>
+	<footer>
+		<p style="color: rgb(195, 159, 115); font-family: 'Times New Roman', Times, serif; font-size: larger;">&copy; 2023 Bookstore Website</p>
+	</footer>
+</body>
+</html>

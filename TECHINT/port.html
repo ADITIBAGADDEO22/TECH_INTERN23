@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="port.css">
+</head>
+<body>
+	<header>
+		<h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">My Portfolio</h1>
+		<nav>
+			<ul>
+				<li><a style="font-family: Georgia, 'Times New Roman', Times, serif;" href="#about"><b>About me</b></a></li>
+				<li><a style="font-family: Georgia, 'Times New Roman', Times, serif;" href="#projects"><b>Projects</b></a></li>
+				<li><a style="font-family: Georgia, 'Times New Roman', Times, serif;"href="#contact"><b>Contact me</b></a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section id="about">
+		<h2 style="font-family: 'Times New Roman', Times, serif; color: black;">About Me</h2>
+		<p style="font-family:'Times New Roman', Times, serif; font-size:larger; color:  black;"><b> Hi everyone, I am Aditi Bagaddeo. I am currently pursuing my B.Tech degree in Computer science engineering. Domains I mainly work upon are web development, so my skills includes HTML, Bootstrap, CSS, Javascript. Apart from these, I work on datasets using python, Seaborn and pandas. Apart from my professional life,I work on music.</b></p>
+	</section>
+	
+	<section id="projects">
+		<h2 style="font-family: 'Times New Roman', Times, serif;">My Projects</h2>
+		<div class="project">
+			<img src="techimg/mycal.jpg">
+			<div>
+				<h3 style=" font-family: 'Times New Roman', Times, serif; font-size: x-large;color: black;">Project 1: Calculator webapp</h3>
+				</h3>
+				<p style="font-family: 'Times New Roman', Times, serif; font-size: larger;color: black;"><b> Project 1 is about creating a calculator using HTML, CSS and ofcourse Javascript. Here the calculator is designed to make calculations easy and accesible for all and the languages, I used in making this webapp were pretty much simple and understandable. Hope this Calculator would help others.</b><a  target = _new href="file:///C:/Users/91933/Desktop/OASIS_WEBDEV/calc.html">Visit my Calculator Webapp</a></p>
+			</div>
+		</div>
+		<div class="project">
+			<img src="techimg/Mytodo.jpg">
+			<div>
+				<h3 style="font-family: 'Times New Roman', Times, serif; font-size: x-large;color: black;">Project 2: TO-DO List Webapp</h3>
+				<p style="font-family: 'Times New Roman', Times, serif; font-size: larger;color: black;"><b> The Project 2 is an TO-DO list webapp. This webapp is being desingned to organise and schedule your works in a convenient way. Here you add works to the list , if needed they can be edited to and once completed the user might delete the work to. So this webapp is easy to use and organises your TO-DO list the way you want.</b><a target=_new href="file:///C:/Users/91933/Desktop/OASIS_WEBDEV/todo.html">Click here to Visit the TO-DO Webapp</a></p>
+			</div>
+		</div>
+	</section>
+	
+	<section id="contact">
+		<h2 style="font-family: 'Times New Roman', Times, serif; color: black;"><b>Contact Me</b></h2>
+		<form>
+			<label style="font-family: Georgia, 'Times New Roman', Times, serif; color:  black;;" for="name" ><b>Name</b></label>
+			<input type="text" id="name" name="name" required>
+			<label style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;" for="email" ><b>Email</b></label>
+			<input type="email" id="email" name="email" required>
+			<label style="font-family: Georgia, 'Times New Roman', Times, serif; color:  black;" for="message"><b>Message</b></label>
+			<textarea id="message" name="message" required>
+            </textarea>
+			<button type="submit">Send</button>
+		</form>
+	</section>
+	<div class="feedback">
+		<h3 style="font-family: 'Times New Roman', Times, serif; color: black; font-size:xx-large;"><b>Feedback</b></h3>
+		<p style="font-size: x-large; font-family: 'Times New Roman', Times, serif; color: black"><b>How was your experience?</b></p>
+		<div class="rating">
+		  <input type="radio" name="rating" id="star1" value="1">
+		  <label for="star1"><i class="fas fa-star"></i></label>
+		  <input type="radio" name="rating" id="star2" value="2">
+		  <label for="star2"><i class="fas fa-star"></i></label>
+		  <input type="radio" name="rating" id="star3" value="3">
+		  <label for="star3"><i class="fas fa-star"></i></label>
+		  <input type="radio" name="rating" id="star4" value="4">
+		  <label for="star4"><i class="fas fa-star"></i></label>
+		  <input type="radio" name="rating" id="star5" value="5">
+		  <label for="star5"><i class="fas fa-star"></i></label>
+		</div>
+		<textarea style="font-style: italic;" placeholder="Enter your feedback here"></textarea>
+		<button class="btn">Submit</button>
+	  </div>
+<footer>
+	<p >&copy; 2023 ADITI BAGADDEO. All rights reserved.</p>
+	<a target=_new href="My_portfolio.pdf" download="My_portfolio.pdf"><b>Download my portfolio</b> </a>
+</footer>
+</body>
+</html>

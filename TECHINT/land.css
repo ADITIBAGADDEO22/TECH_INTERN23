@@ -1,0 +1,22 @@
+/* Custom CSS */
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+
+
+.lead {
+    margin-bottom: 60px;
+}
+
+.btn-primary {
+    background-color: #00ffc3;
+    border-color: #00ffc3;
+}
+
+.footer {
+    margin-top: 80px;
+    padding: 20px 0;
+    text-align: center;
+}
